@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "programmingbitcoin"
+version = "0.1.0"
+description = ""
+authors = ["ngn999 <ngn998@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
